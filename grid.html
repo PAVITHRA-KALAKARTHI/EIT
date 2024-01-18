@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Grid</title>
+<style>
+  .grid{
+      font-size:x-large;
+      height: 50px;margin-left: 10px;margin-right: 10px;margin-top: 10px;margin-bottom: 10px;
+      text-align: center;
+      color: white;
+      padding-top: 20px;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+    .p{
+      margin-right: 10px;height: 150px;
+      font-size:x-large;
+      text-align: center;
+      padding-top: 100px;
+      color: white;
+ }
+  </style>
+  </head>
+
+  <body>
+  <div style="background-color: rgb(189, 184, 184); width: 500px;">
+  <div style="display: grid;grid-template-columns: 1fr;">
+  <div class="grid" style="background-color:darkslateblue;">Holy Grail Layout</div>
+  <div class="mid" style="display: grid;grid-template-columns: 1fr 2fr 1fr;margin-left: 10px; ">
+  <div class="p" style="background-color:turquoise;">nav</div>
+  <div class="p" style="background-color:peru;">Main Content</div>
+  <div class="p"style="background-color:turquoise;">sidebar</div>
+</div>
+  <div class="grid" style="background-color:darkslateblue;">Footer</div></div>
+  </body>
+  </html>
